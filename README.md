@@ -26,8 +26,8 @@ Sigue estos pasos para instalar y configurar el proyecto en tu entorno local:
 1. Clona el repositorio:
 
 ```
-   git clone https://github.com/shamirtano/portafolio_admin.git
-   cd portafolio_admin
+git clone https://github.com/shamirtano/portafolio_admin.git
+cd portafolio_admin
 ```
 
 2. Instala las dependencias
@@ -58,9 +58,7 @@ DB_PASSWORD=
 
 ```
 php artisan key:generate
-
 php artisan migrate
-
 php artisan db:seed
 ```
 
@@ -70,20 +68,27 @@ php artisan db:seed
 php artisan serve
 ```
 
-Abre tu navegador web y ve a `http://localhost:8000` para ver tu proyecto.
+-   Abre tu navegador web y ve a `http://localhost:8000` para ver tu proyecto.
+
+7. Ingresa con los datos por defecto
+
+```
+Usuario: admin@example.com
+Contraseña: password
+```
 
 ## Capturas de Pantalla
 
-Agrega aquí algunas capturas de pantalla del proyecto para que los usuarios puedan ver una vista previa de la interfaz.
+Aquí se muestran algunas capturas de pantalla del proyecto para que veas una vista previa de la interfaz.
 
 ## Contribuir
 
 Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
 1. Realiza un fork del repositorio.
-2. Crea una rama para tu función (feature) (git checkout -b feature/nueva-funcion).
-3. Realiza commit de tus cambios (git commit -am 'Añadir nueva función').
-4. Publica tu rama (git push origin feature/nueva-funcion).
+2. Crea una rama para tu función (feature) (`git checkout -b feature/nueva-funcion`).
+3. Realiza commit de tus cambios (`git commit -am 'Añadir nueva función'`).
+4. Publica tu rama (`git push origin feature/nueva-funcion`).
 5. Abre un Pull Request.
 
 ## Licencia
