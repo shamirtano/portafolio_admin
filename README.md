@@ -91,4 +91,4 @@ Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 Este proyecto está licenciado bajo la Licencia MIT. Para más información, por favor, revisa el archivo LICENSE.
 
 ¡Gracias por visitar mi portafolio! Si tienes alguna pregunta o sugerencia, no dudes en contactarme. 🚀📄✨
-[![GitHub](https://img.shields.io/badge/GitHub-TuUsuario-blue?logo=github)](https://github.com/shamirtano)
+[![GitHub](https://img.shields.io/badge/GitHub-Shamir%20Tano-blue?logo=github)](https://github.com/shamirtano)
