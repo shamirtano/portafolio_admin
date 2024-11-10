@@ -1,0 +1,11 @@
+.profile-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-item i {
+    min-width: 30px;
+    /* Ajusta este valor para el espacio uniforme */
+    margin-right: 10px;
+}

@@ -1,12 +1,13 @@
 <?php
 
-use App\Http\Controllers\Admin\EducationController;
-use App\Http\Controllers\Admin\ExperienceController;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PortfolioController;
+use App\Http\Controllers\Admin\UserController;
+use App\Http\Controllers\Admin\SkillController;
 use App\Http\Controllers\Admin\ProfileController;
 use App\Http\Controllers\Admin\ProjectController;
-use App\Http\Controllers\Admin\SkillController;
-use App\Http\Controllers\PortfolioController;
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\EducationController;
+use App\Http\Controllers\Admin\ExperienceController;
 
 /*Route::get('/', function () {
     return view('portfolio.index');
@@ -26,10 +27,10 @@ Route::get('/dashboard', function () {
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->prefix('admin')->group(function () {
-    /*Route::get('/profile', [ProfileController::class, 'index'])->name('profile.index');
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');*/
+    Route::get('/userprofile', [UserController::class, 'index'])->name('userprofile.index');
+    Route::get('/userprofile', [UserController::class, 'edit'])->name('userprofile.edit');
+    Route::patch('/userprofile', [UserController::class, 'update'])->name('userprofile.update');
+    Route::delete('/userprofile', [UserController::class, 'destroy'])->name('userprofile.destroy');
 
     // Rutas para el admin
     Route::resource('experiences', ExperienceController::class);

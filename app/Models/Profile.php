@@ -4,22 +4,22 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Profile extends Model
-{
+class Profile extends Model {
     protected $fillable = [
-        'name',
+        'first_name',
+        'last_name',
         'title',
+        'last_job',
+        'avatar',
         'email',
         'phone',
-        'address',
-        'city',
-        'country',
-        'website',
+        'mobile',
+        'birthday',
         'github',
         'linkedin',
-        'twitter',
-        'bio',
-        'avatar',
+        'website',
+        'address',
+        'bio'
     ];
 
     protected $table = 'profiles';

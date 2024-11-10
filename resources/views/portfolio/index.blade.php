@@ -129,7 +129,7 @@
                     <div class="skill">
                         <span>Javascript</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>80%</span>
                             </div>
                         </div>
@@ -137,7 +137,7 @@
                     <div class="skill">
                         <span>PHP</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>70%</span>
                             </div>
                         </div>
@@ -145,7 +145,7 @@
                     <div class="skill">
                         <span>Python</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>60%</span>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                     <div class="skill">
                         <span>Java</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>50%</span>
                             </div>
                         </div>
@@ -164,7 +164,7 @@
                     <div class="skill">
                         <span>Trabajo en equipo</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>80%</span>
                             </div>
                         </div>
@@ -172,7 +172,7 @@
                     <div class="skill">
                         <span>Comunicación</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>70%</span>
                             </div>
                         </div>
@@ -180,7 +180,7 @@
                     <div class="skill">
                         <span>Resolución de problemas</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>60%</span>
                             </div>
                         </div>
@@ -188,7 +188,7 @@
                     <div class="skill">
                         <span>Adaptabilidad</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>50%</span>
                             </div>
                         </div>
@@ -199,7 +199,7 @@
                     <div class="skill">
                         <span>Español</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>100%</span>
                             </div>
                         </div>
@@ -207,18 +207,18 @@
                     <div class="skill">
                         <span>Ingles</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>80%</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <h3>Frameworks</h3>
+                    <h3>Otras habilidades</h3>
                     <div class="skill">
                         <span>Laravel</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>80%</span>
                             </div>
                         </div>
@@ -226,7 +226,7 @@
                     <div class="skill">
                         <span>React</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>70%</span>
                             </div>
                         </div>
@@ -234,7 +234,7 @@
                     <div class="skill">
                         <span>Vue</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>60%</span>
                             </div>
                         </div>
@@ -242,7 +242,7 @@
                     <div class="skill">
                         <span>Angular</span>
                         <div class="progress-bar">
-                            <div class="progress">
+                            <div class="progress skill-value">
                                 <span>50%</span>
                             </div>
                         </div>
